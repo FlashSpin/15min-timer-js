@@ -1,9 +1,11 @@
-var fithteen = 9;
+var fithteen = 90;
 var time = document.getElementById("time");
-time.textContent = fithteen;
+setInterval(countDown, 500);
 
-for (var i = 0; i < fithteen; i++) {
+function countDown() {
+    var i = 0; i < fithteen
     fithteen--;
-    console.log(time
+    time.textContent = fithteen;
+    console.log(time);
 }
-console.log(time);
+console.log(time); 
