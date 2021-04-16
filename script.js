@@ -1,6 +1,5 @@
-var today = new Date();
-var time = today.getMinutes() + ":" + today.getSeconds() + ":" + today.getMilliseconds();
 var fithteen = 900000;
-var out = today - fithteen; 
+var time = document.getElementById("time");
+time.textContent = fithteen;
 
-console.log(out);
+console.log(time);
