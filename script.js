@@ -1,4 +1,4 @@
-var fithteen = 1000;
+var fithteen = 30000;
 var time = document.getElementById("time");
 
 document.getElementById("start").onclick =
