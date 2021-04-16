@@ -1,11 +1,12 @@
-var fithteen = 90;
+var fithteen = 1000;
 var time = document.getElementById("time");
-setInterval(countDown, 500);
+setInterval(countDown, 0.1);
 
-function countDown() {
-    var i = 0; i < fithteen
+//document.getElementById("start").onclick = 
+    function down() {
+    for (var i = 0; i < fithteen;) {
     fithteen--;
     time.textContent = fithteen;
-    console.log(time);
+    settimeout(1);
+    }
 }
-console.log(time); 
